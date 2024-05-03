@@ -22,7 +22,7 @@ avatar_image: /img/profile4.JPG
 
 #-------------------------------
 # Contact links
-linkedln: "https://www.linkedin.com/in/tmihaylova/" # Add your linkedln handle
+linkedln: "https://linkedin.com/in/tmihaylova/" # Add your linkedln handle
 github: "https://github.com/tonymih"  # Add your github handle
 
 paginate: 6
