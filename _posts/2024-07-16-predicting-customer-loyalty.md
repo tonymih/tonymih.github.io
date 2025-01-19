@@ -256,7 +256,7 @@ Based on this investigation, we see some *max* column values for several variabl
 
 This is for columns *distance_from_store*, *total_sales*, and *total_items*
 
-For example, the median *distance_to_store* is 1.645 miles, but the maximum is over 44 miles!
+For example, the median *distance_From_store* is 1.645 miles, but the maximum is over 44 miles!
 
 Because of this, we apply some outlier removal in order to facilitate generalisation across the full dataset.
 
