@@ -710,7 +710,7 @@ cv_scores.mean()
 
 ```
 
-The mean cross-validated r-squared score from this is **0.871** which is slighter higher than we saw for Linear Regression.
+The mean cross-validated r-squared score from this is **0.871** which is slightly higher than we saw for Linear Regression.
 
 <br>
 ##### Calculate Adjusted R-Squared
