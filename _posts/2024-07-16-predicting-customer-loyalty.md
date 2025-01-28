@@ -1007,7 +1007,7 @@ The resulting *adjusted* r-squared score from this is **0.955** which as expecte
 <br>
 ### Feature Importance <a name="rf-model-feature-importance"></a>
 
-In our Linear Regression model, to understand the relationships between input variables and our ouput variable, loyalty score, we examined the coefficients.  With our Decision Tree we looked at what the earlier splits were.  These allowed us some insight into which input variables were having the most impact.
+In our Linear Regression model, to understand the relationships between input variables and our output variable, loyalty score, we examined the coefficients.  With our Decision Tree we looked at what the earlier splits were.  These allowed us some insight into which input variables were having the most impact.
 
 Random Forests are an ensemble model, made up of many, many Decision Trees, each of which is different due to the randomness of the data being provided, and the random selection of input variables available at each potential split point.
 
