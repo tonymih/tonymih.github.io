@@ -202,7 +202,7 @@ For Logistic Regression we have certain data preprocessing steps that need to be
 <br>
 ##### Missing Values
 
-The number of missing values in the data was extremely low, so instead of applying any imputation (i.e. mean, most common value) we will just remove those rows
+The number of missing values in the data was extremely low, so instead of applying any imputation (i.e. mean, most common value) we will just remove those rows.
 
 ```python
 
@@ -236,7 +236,7 @@ Based on this investigation, we see some *max* column values for several variabl
 
 This is for columns *distance_from_store*, *total_sales*, and *total_items*
 
-For example, the median *distance_to_store* is 1.64 miles, but the maximum is over 400 miles!
+For example, the median *distance_from_store* is 1.64 miles, but the maximum is over 400 miles!
 
 Because of this, we apply some outlier removal in order to facilitate generalisation across the full dataset.
 
