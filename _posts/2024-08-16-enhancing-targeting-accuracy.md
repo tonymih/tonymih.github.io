@@ -461,17 +461,17 @@ In this example of the rare disease, we could define Classification Accuracy as 
 <br>
 **Precision & Recall**
 
-Precision is a metric that tells us *of all observations that were predicted as positive, how many actually were positive*
+Precision is a metric that tells us *of all observations that were predicted as positive, how many actually were positive*.
 
-Keeping with the rare disease example, Precision would tell us *of all patients we predicted to have the disease, how many actually did*
+Keeping with the rare disease example, Precision would tell us *of all patients we predicted to have the disease, how many actually did*.
 
-Recall is a metric that tells us *of all positive observations, how many did we predict as positive*
+Recall is a metric that tells us *of all positive observations, how many did we predict as positive*.
 
-Again, referring to the rare disease example, Recall would tell us *of all patients who actually had the disease, how many did we correctly predict*
+Again, referring to the rare disease example, Recall would tell us *of all patients who actually had the disease, how many did we correctly predict*.
 
 The tricky thing about Precision & Recall is that it is impossible to optimise both - it's a zero-sum game.  If you try to increase Precision, Recall decreases, and vice versa.  Sometimes however it will make more sense to try and elevate one of them, in spite of the other.  In the case of our rare-disease prediction like we've used in our example, perhaps it would be more important to optimise for Recall as we want to classify as many positive cases as possible.  In saying this however, we don't want to just classify every patient as having the disease, as that isn't a great outcome either!
 
-So - there is one more metric we will discuss & calculate, which is actually a *combination* of both...
+So - there is one more metric we will discuss & calculate, which is actually a *combination* of both.
 
 <br>
 **F1 Score**
