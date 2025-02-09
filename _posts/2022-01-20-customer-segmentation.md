@@ -89,7 +89,7 @@ In the code below, we:
 * Drop the non-food categories
 * Aggregate the sales data for each product area, at customer level
 * Pivot the data to get it into the right format for clustering
-* Change the values from raw dollars, into a percentage of spend for each customer (to ensure each customer is comparable)
+* Change the values from raw dollars, into a percentage of spending for each customer (to ensure each customer is comparable)
 
 <br>
 ```python
