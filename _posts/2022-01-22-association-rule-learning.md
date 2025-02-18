@@ -272,7 +272,7 @@ RelationRecord(items=frozenset({'America White', 'American Rose'}), support=0.02
 
 ```
 <br>
-The output from the algorithm is in the form of a generator. We covert this to a list as this is easier to manipulate & analyse.  
+The output from the algorithm is in the form of a generator. We convert this to a list as this is easier to manipulate & analyse.  
 
 Based upon the parameters we set when applying the algorithm, we get 132 product pairs.  We print out the first element from the list to see what the output looks like, and while this contains all the key information we need - to make it easier to analyse (and more accessible & useable for stakeholders) - in the next code snippet, we extract the key elements and use list comprehension to re-work this data to exist as a Pandas DataFrame.
 
