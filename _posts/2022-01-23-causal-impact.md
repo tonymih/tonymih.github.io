@@ -233,7 +233,7 @@ The resulting plot(s) can be seen below.
 ![alt text](/img/posts/causal-impact-results-plot.png "Causal Impact Results Plot")
 
 <br>
-To explain what we have in the above image...
+To explain what we have in the above image:
 
 The vertical dotted line down the middle of each plot is the date that the Delivery Club membership started.  Everything to the left of this dotted line is the pre-period, and everything to the right of the dotted line is the post-period.
 
