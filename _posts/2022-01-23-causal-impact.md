@@ -194,9 +194,9 @@ ___
 
 In the code below, we specify the start and end dates of the "pre-period" and the start and end dates of the "post-period". We then apply the algorithm by passing in the DataFrame and the specified pre and post period time windows.
 
-The algorithm will model the relationship between members & non-members in the pre-period - and it will use this to create the counterfactual, in other words what it believes would happen to the average daily spend for members in the post-period if no event was to have taken place!
+The algorithm will model the relationship between members & non-members in the pre-period - and it will use this to create the counterfactual, in other words, what it believes would happen to the average daily spend for members in the post-period, if no event was to have taken place!
 
-The difference between this counterfactual and the actual data in the post-period will be our "causal impact"
+The difference between this counterfactual and the actual data in the post-period will be our "causal impact".
 
 ```python
 
