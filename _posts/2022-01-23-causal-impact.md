@@ -51,7 +51,7 @@ We used a 3 months pre-period for the algorithm to model, 3 months post-period f
 
 ### Results <a name="overview-results"></a>
 
-We saw a 41.1% uplift in sales for those customers that joined the Delivery Club, over and above what we believe they would have spent, had the club not been in existence.  This was across the three month post-period, and the uplift was deemed to be significantly significant (@ 95%).
+We saw a 41.1% uplift in sales for those customers that joined the Delivery Club, over and above what we believe they would have spent, had the club not been in existence.  This was across the three month post-period, and the uplift was deemed to be significant (@ 95%).
 
 <br>
 <br>
