@@ -40,7 +40,7 @@ We applied Causal Impact Analysis (see full details below) using the *pycausalim
 
 In the client database, we have a *campaign_data* table which shows us which customers received each type of "Delivery Club" mailer, which customers were in the control group, and which customers joined the club as a result.
 
-Since Delivery Club membership was open to *all customers* - the control group we have in the *campaign_data* table would help us measure the impact of *contacting* customers but here, we are actually look to measure the overall impact on sales from the Delivery Club itself.  Because of this, we instead used customers who did not sign up as the control.  The hypothesis was that customers who did not sign up should continue their normal shopping habits after the club went live, and this will help us create the counter-factual for the customers that did sign-up.
+Since Delivery Club membership was open to *all customers* - the control group we have in the *campaign_data* table would help us measure the impact of *contacting* customers but here, we are actually looking to measure the overall impact on sales from the Delivery Club itself.  Because of this, we instead used customers who did not sign up as the control.  The hypothesis was that customers who did not sign up should continue their normal shopping habits after the club went live, and this will help us create the counter-factual for the customers that did sign-up.
 
 Sales data was from the *transactions* table and was aggregated from a customer/transaction/product area level to customer/date level as per the requirements of the algorithm.
 
