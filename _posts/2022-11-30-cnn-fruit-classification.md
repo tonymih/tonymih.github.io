@@ -68,7 +68,7 @@ Finally, we utilise **Transfer Learning** to compare our network's results again
 
 We have made some huge strides in terms of making our network's predictions more accurate, and more reliable on new data.
 
-Our baseline network suffered badly from overfitting - the addition of both Dropout & Image Augmentation elimited this almost entirely.
+Our baseline network suffered badly from overfitting - the addition of both Dropout & Image Augmentation eliminated this almost entirely.
 
 In terms of Classification Accuracy on the Test Set, we saw:
 
