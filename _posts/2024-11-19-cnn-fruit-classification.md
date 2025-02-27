@@ -352,7 +352,7 @@ We will look to address this with some clever concepts, and you will see those i
 
 Above, we assessed our models performance on both the training set and the validation set - both of which were being passed in during training.
 
-Here, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
+Here, we will get a view of how well our network performs when predicting on data that was *not part* of the training process whatsoever - our test set.
 
 A test set can be extremely useful when looking to assess many different iterations of a network we build.  Where the validation set might be sent through the model in slightly different orders during training in order to assess the epoch by epoch performance, our test set is a *static set* of images.  Because of this, it makes for a really good baseline for testing the first iteration of our network versus any subsequent versions that we create, perhaps after we refine the architecture, or add any other clever bits of
 logic that we think might help the network perform better in the real world.
