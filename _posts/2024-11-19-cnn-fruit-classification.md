@@ -753,7 +753,7 @@ Our baseline network achieved a **75% Classification Accuracy** on the test set,
 <br>
 #### Test Set Confusion Matrix
 
-As mentioned above, while overall Classification Accuracy is very useful, but it can hide what is really going on with the network's predictions!
+As mentioned above, while overall Classification Accuracy is very useful, it can hide what is really going on with the network's predictions!
 
 The standout insight for the baseline network was that Bananas has only a 20% Classification Accuracy, very frequently being confused with Lemons.  Dropout, through the additional *generalisation* forced upon the network, helped a lot - let's see how our network with Image Augmentation fares!
 
