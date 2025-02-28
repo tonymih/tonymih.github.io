@@ -748,7 +748,7 @@ We run the exact same code as we did for the earlier networks, with the only cha
 <br>
 #### Test Set Classification Accuracy
 
-Our baseline network achieved a **75% Classification Accuracy** on the test set, and our network with Dropout applied achieved **85%**.  With the addition of Image Augmentation we saw both a reduction in overfitting, and an increased *validation set* accuracy.  On the test set, we again see an increase vs. the baseline & Dropout, with a **93% Classification Accuracy**. 
+Our baseline network achieved a **75% Classification Accuracy** on the test set, and our network with Dropout applied, achieved **85%**.  With the addition of Image Augmentation we saw both a reduction in overfitting, and an increased *validation set* accuracy.  On the test set, we again see an increase vs. the baseline & Dropout, with a **93% Classification Accuracy**. 
 
 <br>
 #### Test Set Confusion Matrix
