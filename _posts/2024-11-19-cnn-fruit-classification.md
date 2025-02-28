@@ -673,11 +673,11 @@ When applying Image Augmentation using Keras' ImageDataGenerator class, we do th
 
 We apply the Image Augmentation logic into the ImageDataGenerator class that exists within our Data Pipeline.
 
-It is important to note is that we only ever do this for our training data, we don't apply any transformation on our validation or test sets.  The reason for this is that we want our validation & test data be static, and serve us better for measuring our performance over time.  If the images in these set kept changing because of transformations it would be really hard to understand if our network was actually improving, or if it was just a lucky set of validation set transformations that made it appear that is was performing better!
+It is important to note that we only ever do this for our training data, we don't apply any transformation on our validation or test sets.  The reason for this is that we want our validation & test data be static, and serve us better for measuring our performance over time.  If the images in these sets kept changing because of transformations, it would be really hard to understand if our network was actually improving, or if it was just a lucky set of validation set transformations that made it appear that it was performing better!
 
 When setting up and training the baseline & Dropout networks - we used the ImageGenerator class for only one thing, to rescale the pixel values. Now we will add in the Image Augmentation parameters as well, meaning that as images flow into our network for training the transformations will be applied.
 
-In the code below, we add these transformations in and specify the magnitudes that we want each applied:
+In the code below, we add these transformations in and specify the magnitudes for each one, that we want applied:
 
 ```python
 
