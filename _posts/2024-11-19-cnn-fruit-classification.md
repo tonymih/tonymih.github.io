@@ -1058,7 +1058,7 @@ As Dropout & Image Augmentation are in place here, we again see the elimination 
 <br>
 #### Performance On The Test Set
 
-During training, we assessed our updated networks performance on both the training set and the validation set.  Here, like we did for the baseline & Dropout networks, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
+During training, we assessed our updated networks performance on both the training set and the validation set.  Here, like we did for the baseline & Dropout networks, we will get a view of how well our network performs when predicting on data that was *not a part* of the training process whatsoever - our test set.
 
 We run the exact same code as we did for the earlier networks, with the only change being to ensure we are loading in network file for the updated network
 
