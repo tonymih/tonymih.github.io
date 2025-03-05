@@ -1070,7 +1070,7 @@ Our optimised network, with both Dropout & Image Augmentation in place, scored *
 <br>
 #### Test Set Confusion Matrix
 
-As mentioned each time, while overall Classification Accuracy is very useful, but it can hide what is really going on with the network's predictions!
+As mentioned each time, while overall Classification Accuracy is very useful, it can hide what is really going on with the network's predictions!
 
 Our 95% Test Set accuracy at an *overall* level tells us that we don't have too much to worry about here, but let's take a look anyway and see if anything interesting pops up.
 
