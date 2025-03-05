@@ -1295,7 +1295,7 @@ Firstly, we can see a peak Classification Accuracy on the validation set of arou
 <br>
 #### Performance On The Test Set
 
-During training, we assessed our updated networks performance on both the training set and the validation set.  Here, like we did for all other networks, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
+During training, we assessed our updated networks performance on both the training set and the validation set.  Here, like we did for all other networks, we will get a view of how well our network performs when predicting on data that was *not a part* of the training process whatsoever - our test set.
 
 We run the exact same code as we did for the earlier networks, with the only change being to ensure we are loading in network file for the updated network
 
@@ -1307,7 +1307,7 @@ Our VGG16 network scored **98%** on the Test Set, higher than that of our best c
 <br>
 #### Test Set Confusion Matrix
 
-As mentioned each time, while overall Classification Accuracy is very useful, but it can hide what is really going on with the network's predictions!
+As mentioned each time, while overall Classification Accuracy is very useful, it can hide what is really going on with the network's predictions!
 
 Our 98% Test Set accuracy at an *overall* level tells us that we don't have too much to worry about here, but for comparisons sake let's take a look!
 
