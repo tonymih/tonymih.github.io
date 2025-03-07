@@ -132,7 +132,7 @@ Keras makes the use of VGG16 very easy. We download the bottom of the VGG16 netw
 
 In the code below, we:
 
-* Import the required packaages
+* Import the required packages
 * Set up the image parameters required for VGG16
 * Load in VGG16 with Global Average Pooling
 * Save the network architecture & weights for use in search engine
