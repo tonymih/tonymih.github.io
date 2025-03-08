@@ -328,8 +328,8 @@ In the code below, we:
 
 * Load in our VGG16 model
 * Load in our filename store & feature vector store
-* Specify the search image file
 * Specify the number of search results we want
+* Specify the search image file
 
 ```python
 
