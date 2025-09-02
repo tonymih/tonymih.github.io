@@ -17,7 +17,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # About Section
 subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
 location: "Valletta, Malta"
-resume_url: /docs/T_Mihaylova_CV_06_25_c.pdf
+resume_url: /docs/T_Mihaylova_CV_08_25.pdf
 avatar_image: /img/to_upload.jpg
 
 #-------------------------------
@@ -51,4 +51,5 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
